@@ -35,3 +35,20 @@ This document demonstrates practical Git operations performed in this repository
 Date: 2026-02-06
 
 Practiced creating branches, staging files, and committing changes to understand the fundamental Git workflow.
+
+### Commands Executed in This Session
+
+1. Created new branch: `git checkout -b feature/practice-git-commands`
+2. Created practice documentation file
+3. Staged file: `git add GIT_PRACTICE.md`
+4. Viewed staged changes: `git diff --staged`
+5. Committed changes: `git commit -m "Add Git fundamentals practice documentation"`
+6. Viewed history: `git log --oneline`
+
+### Key Learnings
+
+- **Working Directory**: Where files are actively edited
+- **Staging Area**: Where changes are prepared for commit
+- **Repository**: Where commits are permanently stored
+- **Branches**: Allow parallel development without affecting main code
+- **Commits**: Snapshots of your project at specific points in time
